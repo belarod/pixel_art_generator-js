@@ -30,6 +30,10 @@ body{
     border-radius: 8px;
 }
 
+.card__container h1{
+    text-align: center;
+}
+
 label{
     display: block;
 }
@@ -81,6 +85,14 @@ input[type= 'color']::-moz-color-swatch{
 }
 
 /*GRID*/
+
+.grid__container{
+    display: grid;
+}
+
+.grid__container div{
+    justify-content: center;
+}
 
 .gridCol{
     height: 1em;
