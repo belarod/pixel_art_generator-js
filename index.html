@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Pixel Art Generator | #1</title>
+</head>
+<body>
+    <div class="card__container">
+        <div class="card__options">
+            <div class="card__options__container">
+                <div class="card__slider">
+                    <label for="width-range">Grid width</label>
+                    <input type="range" name="width-range" id="width-range" min="1" max="35">
+                    <span id="width-value">00</span>
+                </div>
+                <div class="card__slider">
+                    <label for="height-range">Grid height</label>
+                    <input type="range" name="height-range" id="height-range" min="1" max="35">
+                    <span id="height-value">00</span>
+                </div>
+            </div>
+
+            <div class="card__options__container">
+                <button id="submit-grid">Create Grid</button>
+                <button id="clear-grid">Clear Grid</button>
+                <input type="color" id="color-input">
+                <button id="erase-button">Erase</button>
+                <button id="paint-button">Paint</button>
+            </div>
+        </div>
+
+        <div class="grid__container"></div>
+    </div>
+</body>
+</html>
